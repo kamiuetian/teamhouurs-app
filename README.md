@@ -15,7 +15,7 @@ This repository contains a **programmatic SEO** + **interactive tool** app for f
 - ✅ `sitemap.xml` and `robots.txt`
 - ✅ Tailwind styling + responsive UI
 
-## Local dev
+## Run locally (optional)
 
 ```bash
 npm install
@@ -60,8 +60,9 @@ You can change these constants in `src/lib/time.ts`.
 
 ## Monetization
 
-There is a safe placeholder component at `src/components/AdPlaceholder.tsx`.
-Swap it with AdSense (or another network) once you’re approved.
+To integrate ads, add your provider component where needed in:
+- `src/app/page.tsx`
+- `src/app/meeting/[pair]/page.tsx`
 
 ---
 

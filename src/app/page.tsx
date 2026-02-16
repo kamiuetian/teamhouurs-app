@@ -1,5 +1,4 @@
 import { HomeTool } from '@/components/HomeTool';
-import { AdPlaceholder } from '@/components/AdPlaceholder';
 import { CITY_BY_SLUG, type City } from '@/data/cities';
 
 export default function HomePage({
@@ -23,7 +22,6 @@ export default function HomePage({
   return (
     <>
       <HomeTool initialCities={initial} />
-      <AdPlaceholder />
     </>
   );
 }

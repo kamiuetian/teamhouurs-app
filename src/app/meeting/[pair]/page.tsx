@@ -2,7 +2,6 @@ import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { CITY_BY_SLUG, TOP_CITIES } from '@/data/cities';
 import { TimeGrid } from '@/components/TimeGrid';
-import { AdPlaceholder } from '@/components/AdPlaceholder';
 import { CopyLinkButton } from '@/components/CopyLinkButton';
 import { CurrentTimeCards } from '@/components/CurrentTimeCards';
 import { MeetingRecommendations } from '@/components/MeetingRecommendations';
@@ -182,8 +181,6 @@ export default function MeetingPage({ params }: { params: { pair: string } }) {
         overlapSummary={overlap.summary}
         overlapSegments={overlap.segments}
       />
-
-      <AdPlaceholder />
 
       <SEOContentBlock
         cityA={cityA}

@@ -66,7 +66,7 @@ export function PairPicker({ defaultA = 'london', defaultB = 'new-york' }: { def
       </button>
 
       <p className="mt-3 text-xs text-white/50">
-        Example: <code className="text-white/70">/meeting/london-to-new-york</code>
+        URL format: <code className="text-white/70">/meeting/london-to-new-york</code>
       </p>
     </div>
   );

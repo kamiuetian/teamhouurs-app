@@ -91,15 +91,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <nav className="flex flex-wrap items-center gap-3 text-sm text-white/70">
               <a className="hover:text-white" href="/">Tool</a>
               <a className="hover:text-white" href="/meeting">City pairs</a>
-              <a className="hover:text-white" href="/meeting/london-to-new-york">Example</a>
-              <a
-                className="hover:text-white"
-                href="https://vercel.com"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Host on Vercel
-              </a>
+              <a className="hover:text-white" href="/meeting/london-to-new-york">Popular pair</a>
             </nav>
           </header>
 
