@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: theme('colors.bg');
+  color: theme('colors.text');
+}
+
+::selection {
+  background: rgba(56, 189, 248, 0.35);
+}
+
+/* Improve focus visibility for keyboard users */
+:focus-visible {
+  outline: 2px solid rgba(56, 189, 248, 0.9);
+  outline-offset: 2px;
+}
